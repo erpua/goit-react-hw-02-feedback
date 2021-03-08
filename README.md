@@ -23,7 +23,6 @@ INSTALLATIONS:
 - import React from 'react' in each component file
 - npm start => to develop
 - DEPLOY
-- git status, add ., commit, push
 - npm install --save-dev gh-pages
 - in package.json => - scripts => "homepage":
   "https://myusername.github.io/my-app"add to package.json => change to
@@ -32,5 +31,6 @@ INSTALLATIONS:
   "gh-pages -d build" => "scripts": { "start": "react-scripts start", "build":
   "react-scripts build", "test": "react-scripts test", "eject": "react-scripts
   eject", "predeploy": "npm run build", "deploy": "gh-pages -d build" },
+- git status, add ., commit, push
 - npm run deploy
 - add repository root to GitHub Website link
